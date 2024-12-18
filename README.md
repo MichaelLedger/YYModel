@@ -266,6 +266,11 @@ You can map a json key (key path) or an array of json key (key path) to one or m
 Installation
 ==============
 
+### Swift Package Manager
+1. Xcode -> File-> Add Package Dependencies...
+2. Search YYModel Package URL
+3. `@import YYModel;`
+
 ### CocoaPods
 
 1. Add `pod 'YYModel'` to your Podfile.
@@ -278,7 +283,6 @@ Installation
 1. Add `github "ibireme/YYModel"` to your Cartfile.
 2. Run `carthage update --platform ios` and add the framework to your project.
 3. Import \<YYModel/YYModel.h\>.
-
 
 ### Manually
 
