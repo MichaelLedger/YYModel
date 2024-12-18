@@ -267,9 +267,10 @@ Installation
 ==============
 
 ### Swift Package Manager
-1. Xcode -> File-> Add Package Dependencies...
-2. Search YYModel Package URL
+1. Xcode -> File -> Add Package Dependencies...
+2. Search Package URL: `git@github.com:ibireme/YYModel.git`
 3. `@import YYModel;`
+
 
 ### CocoaPods
 
@@ -283,6 +284,7 @@ Installation
 1. Add `github "ibireme/YYModel"` to your Cartfile.
 2. Run `carthage update --platform ios` and add the framework to your project.
 3. Import \<YYModel/YYModel.h\>.
+
 
 ### Manually
 
@@ -581,6 +583,11 @@ EEE MMM dd HH:mm:ss Z yyyy
 
 安装
 ==============
+### Swift Package Manager
+1. Xcode -> File -> Add Package Dependencies...
+2. 搜索 Package URL: `git@github.com:ibireme/YYModel.git`
+3. 导入 `@import YYModel;`
+
 
 ### CocoaPods
 
