@@ -268,7 +268,7 @@ Installation
 
 ### Swift Package Manager
 1. Xcode -> File -> Add Package Dependencies...
-2. Search Package URL: `git@github.com:ibireme/YYModel.git`
+2. Search Package URL: `git@github.com:ibireme/YYModel.git` and add the `YYModel` library to your targets in `Link Binary With Libraries`.
 3. `@import YYModel;`
 
 
@@ -585,7 +585,7 @@ EEE MMM dd HH:mm:ss Z yyyy
 ==============
 ### Swift Package Manager
 1. Xcode -> File -> Add Package Dependencies...
-2. 搜索 Package URL: `git@github.com:ibireme/YYModel.git`
+2. 搜索 Package URL: `git@github.com:ibireme/YYModel.git` 并将生成的 `YYModel` 库添加到 targets 当中的 `Link Binary With Libraries`。
 3. 导入 `@import YYModel;`
 
 
